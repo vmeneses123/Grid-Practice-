@@ -6,9 +6,18 @@
       display: grid;
       grid-template-columns: 1fr 2fr;
       gap: 10px;
+      max-width: 600px;
+      margin: 20px auto;
     }
     textarea {
       width: 100%;
+      resize: none;      /* disable resizing */
+    }
+    .small {
+      height: 100px;
+    }
+    .big {
+      height: 210px;     /* about equal to two small boxes + gap */
     }
   </style>
 </head>
@@ -16,11 +25,11 @@
 
   <div class="grid">
     <div>
-      <textarea placeholder="Small Box 1"></textarea><br>
-      <textarea placeholder="Small Box 2"></textarea>
+      <textarea class="small" placeholder="Small Box 1"></textarea>
+      <textarea class="small" placeholder="Small Box 2"></textarea>
     </div>
     <div>
-      <textarea rows="10" placeholder="Big Box"></textarea>
+      <textarea class="big" placeholder="Big Box"></textarea>
     </div>
   </div>
 
