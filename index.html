@@ -1,37 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <style>
-    .grid {
-      display: grid;
-      grid-template-columns: 1fr 2fr;
-      gap: 10px;
-      max-width: 600px;
-      margin: 20px auto;
-    }
-    textarea {
-      width: 100%;
-      resize: none;      /* disable resizing */
-    }
-    .small {
-      height: 100px;
-    }
-    .big {
-      height: 210px;     /* about equal to two small boxes + gap */
-    }
-  </style>
+  <meta charset="UTF-8">
+  <title>2 Column Grid</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <div class="grid-containershort">
+  <div class="grid-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+  <div class="grid-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
 
-  <div class="grid">
-    <div>
-      <textarea class="small" placeholder="Small Box 1"></textarea>
-      <textarea class="small" placeholder="Small Box 2"></textarea>
-    </div>
-    <div>
-      <textarea class="big" placeholder="Big Box"></textarea>
-    </div>
+
+</div>
+
+<div class ="grid-containerlong">
+  <div class="grid-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+</div>
+
+<br>
+<br>
+<br>
+<br> 
+
+<div class="grids-row">
+  <div class="grid2-containertall grid-item">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   </div>
 
-</body>
+  <div class="small-grids-column">
+    <div class="grid2-containersmall grid-item">Lorem ipsum dolor sit amet, consectetur</div>
+    <div class="grid2-containersmall grid-item">Lorem ipsum dolor sit amet, consectetur</div>
+    <div class="grid2-containersmall grid-item">Lorem ipsum dolor sit amet, consectetur</div>
+
+  </div>
+</div>
 </html>
