@@ -9,7 +9,6 @@
         
     }
   
-  
   .grid-containershort {
       display: grid;
       grid-template-columns: 1fr 1fr; 
@@ -49,7 +48,6 @@
 }
 
 .grids-row {
-
 display: flex;
 justify-content: center; 
 text-align: center;
@@ -58,3 +56,17 @@ font-size: 16px;
 gap: 8px
 
 }
+
+.bottom-img {
+  max-width: 400px; 
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.grid3-image {
+ 
+    width: 500px;
+    height: 500px;
+        margin: 10px 0;
+    }
+
